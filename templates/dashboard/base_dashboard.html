@@ -2,11 +2,13 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+    <link rel="stylesheet" href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}">
     <meta charset="UTF-8">
     <title>{% block title %}Дашборды{% endblock %}</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/core@1.5.1/dist/css/tabler.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
+<script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
 <body>
 <div class="page">
     <header class="navbar navbar-expand-md navbar-dark d-print-none">
